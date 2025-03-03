@@ -22,7 +22,7 @@ export const fetchingWeather = async (city: string) => {
   try {
     const response = await axios.get(BASE_URL, {
       params: {
-        Key: API_KEY,
+        key: API_KEY,
         q: city,
       },
     });
