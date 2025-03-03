@@ -15,7 +15,7 @@ function App() {
       const data: WeatherResponse = await fetchingWeather(City);
       setWeather(data);
     } catch (err) {
-      setError("Tolong masukkan Country nya terlebih Dahulu");
+      setError("Tolong masukkan Kotanya terlebih Dahulu" + err);
     }
   };
 
