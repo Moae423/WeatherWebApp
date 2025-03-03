@@ -1,4 +1,3 @@
-import { CloudLightning, Icon, icons } from "lucide-react";
 import WeatherImage from "../assets/Weather-pana.svg";
 
 interface WeatherProps {

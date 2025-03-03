@@ -1,12 +1,12 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
 import { CloudFog } from "lucide-react";
 
 interface inputAreaProps {
   value: string;
   Error?: string | null;
   handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  handleWeather: (event: React.ChangeEvent<HTMLButtonElement>) => void;
+  handleWeather: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 const InputArea: React.FC<inputAreaProps> = ({
   value,
